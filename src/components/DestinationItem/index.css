@@ -1,0 +1,16 @@
+li {
+  margin-bottom: 30px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+img {
+  width: 100%;
+  max-width: 300px;
+}
+
+p {
+  font-family: 'Open Sans';
+  color: #0f172a;
+  font-weight: 600;
+}

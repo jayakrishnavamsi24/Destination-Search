@@ -1,0 +1,52 @@
+.bg-container {
+  padding: 15px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+h1 {
+  font-family: 'Roboto';
+  font-size: 35px;
+  margin-bottom: 30px;
+  color: #000000;
+}
+
+.input-container {
+  display: flex;
+  align-items: center;
+  background-color: #f1f5f9;
+  padding: 3px;
+  padding-left: 15px;
+  padding-right: 15px;
+  border-radius: 7px;
+}
+
+.input-container > img {
+  width: 25px;
+  height: 25px;
+  opacity: 0.5;
+}
+
+input {
+  height: 35px;
+  width: 200px;
+  background-color: #f1f5f9;
+  font-size: 16px;
+  border: none;
+  border-radius: 7px;
+}
+
+input:focus {
+  outline: none;
+}
+
+.destinations-container {
+  margin-top: 50px;
+  list-style-type: none;
+  width: 100%;
+  padding-left: 0px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
